@@ -28,7 +28,7 @@ function site_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'where we carry Drupal books that are doomed to die';
+  $strongarm->value = 'where we carry Drupal books that are doomed to die...';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
