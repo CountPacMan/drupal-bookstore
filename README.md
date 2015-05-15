@@ -6,7 +6,7 @@ Basic bookstore layout in Drupal. Bookstore allows registered users to see coupo
 
 #### Setup instructions
 1. Clone this git repository
-2. Import the database that exists in sites/db-backups to your mysql server
+2. Import the database that exists in sites/db-backups/drupal_bookstore_db.sql to your mysql server
 3. add db user "user1" with password "password" and all priveleges to the db
 3. Ensure Apache server is running with PHP server and pointed to the root folder for this site
 4. Start the web app by pointing your browser to the root (http://localhost:8888/)  
